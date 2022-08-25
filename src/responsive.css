@@ -11,3 +11,8 @@
         width: 90%;
     }
 }
+@media screen and (max-width: 340px) {
+    .heading--wrap p {
+        width: 90%;
+    }
+}
