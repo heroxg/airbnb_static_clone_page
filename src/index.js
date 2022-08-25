@@ -1,13 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './responsive.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Card from './components/Card';
+import Banner from './components/Banner';
+import CardDetails from './components/CardDetails';
+import productData from '../src/components/CardDetails'
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div className='main--wrapper'>
+      <App />
+      <Banner />
+      {productData}
+        <CardDetails />
+    </div>
   </React.StrictMode>
 );
 

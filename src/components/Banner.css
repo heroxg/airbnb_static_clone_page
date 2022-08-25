@@ -1,0 +1,41 @@
+.banner--wrapper {
+    width: 100%;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+}
+.banner-wrapper-inner {
+    width: 100%;
+    max-width: 395px;
+    padding: 24px 0px;
+    margin: 0 auto;
+}
+
+.banner-wrapper-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 110%;
+    color: #000000;
+    margin-bottom: 32px;
+}
+.heading--wrap p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 110%;
+    color: #222222;
+    width: 65%;
+}
+.heading--wrap {
+    background: #fff;
+    padding-bottom: 50px;
+    padding-left: 36px;
+}
