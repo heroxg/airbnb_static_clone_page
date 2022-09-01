@@ -4,10 +4,7 @@ import './index.css';
 import './responsive.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Card from './components/Card';
-import Banner from './components/Banner';
-import CardDetails from './components/CardDetails';
-import productData from '../src/components/CardDetails'
+
 
 
 
@@ -17,9 +14,6 @@ root.render(
   <React.StrictMode>
     <div className='main--wrapper'>
       <App />
-      <Banner />
-      {productData}
-        <CardDetails />
     </div>
   </React.StrictMode>
 );

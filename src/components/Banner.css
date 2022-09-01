@@ -1,6 +1,6 @@
 .banner--wrapper {
     width: 100%;
-    background: #fff;
+    /* background: #fff; */
     position: relative;
     z-index: 2;
 }
@@ -22,7 +22,7 @@ h1 {
     font-weight: 600;
     font-size: 36px;
     line-height: 110%;
-    color: #000000;
+    /* color: #000000; */
     margin-bottom: 32px;
 }
 .heading--wrap p {
@@ -31,11 +31,11 @@ h1 {
     font-weight: 300;
     font-size: 16px;
     line-height: 110%;
-    color: #222222;
+    /* color: #222222; */
     width: 65%;
 }
 .heading--wrap {
-    background: #fff;
+    /* background: #fff; */
     padding-bottom: 50px;
     padding-left: 36px;
 }
